@@ -1,0 +1,7 @@
+.windsurfrules
+
+**/__pycache__
+
+**/mcp_builder.egg-info
+
+**/.venv
