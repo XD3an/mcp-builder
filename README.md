@@ -1,6 +1,17 @@
 # mcp-builder
 
-A Python based MCP server to install other MCP servers. This server allows Claude to install and configure other MCP servers from package repositories (PyPI or npm) or from local directories.
+A Python based MCP server to install other MCP servers. 
+
+The purpose of this server is to provide a complete, user-friendly, and cross-platform way to install and configure MCP servers. 
+
+
+## TODO
+
+- [] Support for more MCP Clients (e.g. Cursor, Windsurf, ...)
+- [] Support for more MCP server types, sources (e.g. Node.js, Java, ...)
+- [] Support recovery mechanism for failed installations
+- ...
+
 
 ## Features
 
@@ -55,7 +66,9 @@ mcp dev path/to/mcp_builder/server.py
 npx @modelcontextprotocol/inspector python -m mcp_builder.server
 ```
 
-### Claude Desktop Integration
+### MCP Client Integration
+
+#### Claude Desktop Integration
 
 To use MCP Builder with Claude Desktop, add it to your `claude_desktop_config.json` file:
 
@@ -78,7 +91,7 @@ The configuration file is located at:
 - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
 - Linux: `~/.config/Claude/claude_desktop_config.json`
 
-### Example Commands
+#### Example Commands
 
 Once integrated with Claude Desktop, you can ask Claude to:
 

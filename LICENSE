@@ -1,9 +1,0 @@
-
-This implementation uses the FastMCP approach from the official Python SDK, which provides a more Pythonic and streamlined way to create MCP servers. The key differences from our original implementation are:
-
-1. Using the `@mcp.tool()` decorator to define tools instead of manually registering them
-2. Leveraging Python type hints and docstrings for automatic schema generation
-3. Consolidating all functionality into a single file for simplicity
-4. Using the official `mcp` package instead of a custom implementation
-
-This approach is more aligned with the recommended patterns in the official MCP Python SDK and should provide a more maintainable and robust implementation.
