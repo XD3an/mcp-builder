@@ -4,14 +4,11 @@ A Python-based MCP server to install other MCP servers.
 
 The purpose of this server is to provide a complete, user-friendly, and cross-platform way to install and configure MCP servers. 
 
-## TODO
+#### TODO
 
-- [] Support for more MCP Clients (e.g. Cursor, Windsurf, ...)
-
-- [] Support for more MCP server types and sources (e.g., Node.js, Java, etc.)
-  
-- [] Support recovery mechanism for failed installations
-  
+- [ ] Support for more MCP Clients (e.g. Cursor, Windsurf, ...)
+- [ ] Support for more MCP server types and sources (e.g., Node.js, Java, etc.)
+- [ ] Support recovery mechanism for failed installations
 - ...
 
 
