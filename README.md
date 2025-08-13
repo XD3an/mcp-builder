@@ -4,6 +4,10 @@ A Python-based MCP server to install other MCP servers.
 
 The purpose of this server is to provide a complete, user-friendly, and cross-platform way to install and configure MCP servers. 
 
+<a href="https://glama.ai/mcp/servers/@XD3an/mcp-builder">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@XD3an/mcp-builder/badge" alt="Builder MCP server" />
+</a>
+
 #### TODO
 
 - [ ] Support for more MCP Clients (e.g. Cursor, Windsurf, ...)
@@ -106,5 +110,3 @@ MCP Builder modifies the Claude Desktop configuration file to register MCP serve
 1. **Node.js Packages**: Installs using `npx` and configures Claude to use them
 2. **Python Packages**: Configures Claude to use Python modules
 3. **Local Repositories**: Installs dependencies and configures Claude to use local code
-
-
